@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="expanded-menu">
+<img src="images/icon-close-menu.svg" alt="close-icon" class="close">
+  </div>
+<header>
+  <div class="container_logo">
+  <img src="images/logo.svg" alt="logo" class="logo">
+</div>
+<div class="container_icon-menu">
+  <img src="images/icon-menu.svg" alt="icon-menu" class="icon-menu">
+</div>
+<div class="containers_head">
+  <div class="container_header-left">
+  
+<div class="features">
+  <div class="subcontainer_features-1">
+<nav aria-label="nav" class="nav nav-features"> Features </nav>
+<img src="images/icon-arrow-down.svg" alt="arror-down" class="arrow">
+</div>
+<div class="plegable-list-features">
+  <ul>
+    <li>
+      <img src="images/icon-todo.svg" alt="todo-icon" class="icon">
+      Todo List
+    </li>
+    <li>
+      <img src="images/icon-calendar.svg" alt="calendar-icon" class="icon">
+      Calendar
+    </li>
+    <li>
+      <img src="images/icon-reminders.svg" alt="reminders-icon" class="icon">
+      Reminders
+    </li>
+    <li>
+      <img src="images/icon-calendar.svg" alt="planning-icon" class="icon">
+      Planning
+    </li>
+  </ul>
+</div>
+</div>
+<div class="company">
+  <div class="subcontainer_company-1">
+ <nav aria-label="nav" class="nav nav-company"> Company </nav>
+<img src="images/icon-arrow-down.svg" alt="arror-down" class="arrow-2">
+</div>
+<div class="plegable-list-company">
+  <ul>
+    <li>
+     History
+    </li>
+    <li>
+      Our Team
+    </li>
+    <li>
+      Blog
+    </li>
+
+  </ul>
+</div>
+  
+</div>
+<div class="careers">
+ <nav aria-label="nav" class="nav nav-careers"> Careers </nav>
+  
+</div>
+<div class="about">
+ <nav aria-label="nav"  class="nav nav-about"> About </nav>
+  
+</div>
+</div>
+
+<div class="container_header-right">
+ <nav aria-label="login" class="nav login"> Login</nav>
+  <nav aria-label="register" class="nav register">Register</nav>
+</div>
+</div>
+</header>
+<main>
+  <div class="container_main">
+  <h1 class="title">Make <br class="br"> remote work</h1>
+<p class="description">
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+</p>
+<button class="button">
+  Learn more
+</button>
+<div class="container_clients">
+  <img src="images/client-databiz.svg" alt="img-databitz" class="databiz">
+  <img src="images/client-audiophile.svg" alt="img-audiophile" class="audiophile">
+  <img src="images/client-meet.svg" alt="img-meet" class="meet">
+  <img src="images/client-maker.svg" alt="img-maker" class="maker"> 
+</div>
+</div>
+<div class="container_img">
+  <picture>
+    <source media="(max-width: 700px )" srcset="images\image-hero-mobile.png" class="img">
+    <img src="images\image-hero-desktop.png" alt="img-hero" class="img">
+  </picture>
+</div>
+</main>
+  
+  <script src="index.js"></script>
+</body>
+</html>
